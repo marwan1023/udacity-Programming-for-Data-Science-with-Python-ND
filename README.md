@@ -44,7 +44,7 @@ The developed CLI program allows the user to explore an US bikeshare system data
 ### Python Learning In The Course
 
 Check the link for my learning material.
-[Check this out](https://github.com/marwan1023/Udacity-ND-Programming-for-Data-Science-with-Python/blob/master/bikeshare.py)
+[Check this out](https://github.com/marwan1023/udacity-Programming-for-Data-Science-with-Python-ND/blob/master/bikeshare.py)
 
 #### Files Used
 
