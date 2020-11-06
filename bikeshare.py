@@ -2,7 +2,6 @@ import time
 import pandas as pd
 import numpy as np
 import calendar
-import csv
 import matplotlib.pyplot as plt
 import statistics  
 
@@ -11,6 +10,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 def get_filters():
+
     """
     Asks user to specify a city, month, and day to analyze.
     In this project, you will make use of Python to explore dataEnter yes related to bike share systems for three major cities 
@@ -20,7 +20,7 @@ def get_filters():
     """
 
     print(" WELCOME NANODEGREE PROGRAM FROM UDACITY:{Programming for Data Science with Python}")
-
+    print("Marwan Saeed Alsharabbi")
     Returns=[" Asks user to specify a city, month, and day to analyze."
         "\n(str) city - name of the city to analyze"
         "\n(str) month - name of the month to filter by, or 'all' to apply no month filter"
@@ -93,8 +93,6 @@ def load_data(city, month, day):
 
     return df
 
-
-    
 def time_stats(df):
     """
     Displays statistics on the most frequent times of travel.
@@ -283,7 +281,7 @@ def plot_stat(df):
     print(user_type)
 def input_user():
     while True :
-        exit = str(input('\nWould you like Displays statistics on bikeshare users ? Enter any  key to continue.\n '))
+        exit = str(input('\nWould you like Displays statistics on bikeshare dataset ? Enter any  key to continue.\n '))
         if exit.lower()=='yes':
             break
         else:
@@ -307,8 +305,6 @@ def main():
         else:
             print('\nYou are being redirected to the start of the application.')
             print('-'*40)       
-        
-
 if __name__ == "__main__":
     main()
     
